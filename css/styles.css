@@ -1,0 +1,12 @@
+body {
+  background-color: goldenrod;
+}
+h1 {
+  background-color: white;
+  color: black;
+  font-size: 4em;
+  line-height: 4em;
+  text-align: center;
+  font-family: 'Limelight', sans-serif;
+  border-radius: 100px;
+}
