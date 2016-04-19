@@ -10,3 +10,7 @@ h1 {
   font-family: 'Limelight', sans-serif;
   border-radius: 100px;
 }
+
+li {
+  list-style: none;
+}
