@@ -31,9 +31,6 @@ var theRides = [
   ["Kiddie Carousel", 12, 40, "Adventure Land, Long Island, NY", "kiddie_carousel.jpg"]
 ];
 
-//if tall enough
-//and if short enough
-
 $("#showRides").click(function() {
   var myFeet = parseInt($("#feet").val());
   var myInches = parseInt($("#inches").val());
@@ -41,7 +38,7 @@ $("#showRides").click(function() {
   $("#rides").empty();
   theRides.forEach(function(ride) {
     if((ride[1] <= myInches) && (ride[2] >= myInches)) {
-      $("#rides").append("<li><h2>" + ride[0] + "</h2></li>");
+      $("#rides").append("<li><a data-toggle='modal' href='#more'><img src='img/" + ride[4] + "'></a><h3>" + ride[0] + "</h3>"+ ride[3] +"</li>");
     }
   });
   $("#rides").show();

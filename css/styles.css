@@ -18,3 +18,10 @@ li {
 #rides {
   display:none;
 }
+
+li img {
+  width: 75px;
+  margin: 5px;
+  float: left;
+  clear: both;
+}
