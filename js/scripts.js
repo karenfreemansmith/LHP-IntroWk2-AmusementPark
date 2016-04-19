@@ -5,4 +5,7 @@
 //if tall enough
 //and if short enough
 //add ride to list
-$("#rides").append("<li><h2>The Ride!</h2></li>");
+$("#showRides").click(function() {
+  $("#rides").append("<li><h2>The Ride!</h2></li>");
+  $("#rides").show();
+});
