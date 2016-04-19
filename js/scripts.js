@@ -5,7 +5,7 @@ var theRides = [
   ["Millennium Force", 60, 84, "Cedar Point, Sandusky, OH", "millennium.jpg"],
   ["Kingda Ka", 60, 84, "Six Flags Great Adventure, Jackson, NJ", "kingda.jpg"],
   ["Harry Potter and the Forbidden Journey", 60, 84, "Universal Islands of Adventure, Orlando, FL", "harrypotter.jpg"],
-  ["Master Blaster", 60, 84, Schlitterbahn, New Braunfels, TX"", "masterblaster.jpg"],
+  ["Master Blaster", 60, 84, "Schlitterbahn, New Braunfels, TX", "masterblaster.jpg"],
   ["El Toro", 60, 84, "Six Flags Great Adventure, Jackson, NJ", "eltoro.jpg"],
   ["Goliath", 60, 99, "Six Flags Over Georgia, Austell, GA", "goliath.jpg"],
   ["Wildebeest", 36, 84, "Splashin' Safari, Santa Claus, IN", "wildebeest.jpg"],
@@ -38,7 +38,8 @@ $("#showRides").click(function() {
   var myFeet = parseInt($("#feet").val());
   var myInches = parseInt($("#inches").val());
   myInches += myFeet*12;
-  alert("You are " + myInches + " tall");
-  $("#rides").append("<li><h2>The Ride!</h2></li>");
+  theRides.forEach(function(ride) {
+    $("#rides").append("<li><h2>" + ride[0] + "</h2></li>");
+  });
   $("#rides").show();
 });
