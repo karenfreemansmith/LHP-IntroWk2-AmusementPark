@@ -12,7 +12,15 @@
   <body>
     <div class="container">
       <h1>Amusement Park Rides</h1>
-      <ul id="rides"></ul>
+      <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+          <h3>How tall are you?</h3>
+          Feet: <input type="number" id="feet"> Inches: <input type="number" id="inches">
+          <button id="showRides" class="btn">Show My Rides!</button><br>
+          <ul id="rides"></ul>
+        </div>
+        <div class="col-xs-2"></div>
     </div>
   <script src="js/jquery-1.12.2.js"></script>
   <script src="js/bootstrap.js"></script>
