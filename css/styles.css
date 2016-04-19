@@ -1,14 +1,15 @@
 body {
-  background-color: goldenrod;
+  border: solid #70B296 50px;
+  min-height: 800px;
 }
+
 h1 {
-  background-color: white;
-  color: black;
+  background-color: #304C40;
+  color: white;
   font-size: 4em;
-  line-height: 4em;
+  line-height: 3em;
   text-align: center;
-  font-family: 'Limelight', sans-serif;
-  border-radius: 100px;
+  font-family: 'Josefin Slab', serif;
 }
 
 li {
@@ -19,9 +20,11 @@ li {
   display:none;
 }
 
-li img {
-  width: 75px;
+#rides img {
+  width: 100px;
   margin: 5px;
-  float: left;
-  clear: both;
+}
+
+.modal img {
+  max-width:540px;
 }

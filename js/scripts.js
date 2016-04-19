@@ -34,11 +34,26 @@ var theRides = [
 $("#showRides").click(function() {
   var myFeet = parseInt($("#feet").val());
   var myInches = parseInt($("#inches").val());
+  var modalCode = "";
   myInches += myFeet*12;
   $("#rides").empty();
-  theRides.forEach(function(ride) {
+  theRides.forEach(function(ride, index) {
     if((ride[1] <= myInches) && (ride[2] >= myInches)) {
-      $("#rides").append("<li><a data-toggle='modal' href='#more'><img src='img/" + ride[4] + "'></a><h3>" + ride[0] + "</h3>"+ ride[3] +"</li>");
+      modalCode="<div class='modal fade' id='more"+ index +"'>";
+      modalCode+="<div class='modal-dialog'>";
+      modalCode+="<div class='modal-content'>";
+      modalCode+="<div class='modal-header'>";
+      modalCode+="<button type='button' class='close' data-dismiss='modal' aria-hidden='true'>X</button>";
+      modalCode+="<h4 class='modal-title'>"+ ride[0] + ": " + ride[3] + "</h4>";
+      modalCode+="</div>";
+      modalCode+="<div class='modal-body'>";
+      modalCode+="<div class='container'><img src='img/"+ ride[4]  +"' class='img-responsive'></div>";
+      modalCode+="</div>";
+      modalCode+="</div>";
+      modalCode+="</div>";
+      modalCode+="</div>";
+      $("#popups").append(modalCode);
+      $("#rides").append("<div class='col-sm-3'><a data-toggle='modal' href='#more"+ index +"'><img src='img/" + ride[4] + "'></a><p><strong>" + ride[0] + "</strong></p></div>");
     }
   });
   $("#rides").show();

@@ -10,19 +10,7 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
-    <div class="modal fade" id="more">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-            <h4 class="modal-title">Thrilling Ride</h4>
-          </div>
-          <div class="modal-body">
-            <div class="container"><img src="img/helicopters.jpg" class="img-responsive"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="popups"></div>
     <div class="container">
       <h1>Amusement Park Rides</h1>
       <div class="row">
@@ -31,7 +19,7 @@
           <h3>How tall are you?</h3>
           Feet: <input type="number" id="feet"> Inches: <input type="number" id="inches">
           <button id="showRides" class="btn">Show My Rides!</button><br>
-          <ul id="rides"></ul>
+          <div id="rides" class="row"></div>
         </div>
         <div class="col-xs-2"></div>
     </div>
