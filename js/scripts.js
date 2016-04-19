@@ -38,8 +38,11 @@ $("#showRides").click(function() {
   var myFeet = parseInt($("#feet").val());
   var myInches = parseInt($("#inches").val());
   myInches += myFeet*12;
+  $("#rides").empty();
   theRides.forEach(function(ride) {
-    $("#rides").append("<li><h2>" + ride[0] + "</h2></li>");
+    if((ride[1] <= myInches) && (ride[2] >= myInches)) {
+      $("#rides").append("<li><h2>" + ride[0] + "</h2></li>");
+    }
   });
   $("#rides").show();
 });
