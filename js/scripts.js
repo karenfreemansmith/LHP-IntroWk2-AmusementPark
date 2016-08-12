@@ -53,7 +53,7 @@ $("#showRides").click(function() {
       modalCode+="</div>";
       modalCode+="</div>";
       $("#popups").append(modalCode);
-      $("#rides").append("<div class='col-sm-3'><a data-toggle='modal' href='#more"+ index +"'><img src='img/" + ride[4] + "'></a><p><strong>" + ride[0] + "</strong></p></div>");
+      $("#rides").append("<div class='col-sm-4'><a data-toggle='modal' href='#more"+ index +"'><img src='img/" + ride[4] + "' class='img-responsive img-thumbnail'></a><p><strong>" + ride[0] + "</strong></p></div>");
     }
   });
   $("#rides").show();

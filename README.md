@@ -2,7 +2,7 @@
 # [Park Rides](http://karenfreemansmith.github.io/park)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 2: April 19, 2016__
+__Version 2.1: August 12, 2016__
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
 
 ### Description
@@ -21,8 +21,7 @@ __*A webpage that tells you which park rides you can go on based on your height.
 For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
 
 ### Known Issues
-* Some strange sizing issues with modal form images at xs breakpoint
-* Some strange sizing issues with H1 at md (?) breakpoint going up
+* sizing issues on images, rows wrap in wrong places sometimes
 
 ### Technologies Used
 ###### HTML, CSS, Bootstrap, JavaScript, jQuery
