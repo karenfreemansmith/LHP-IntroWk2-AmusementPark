@@ -11,22 +11,22 @@ __*A webpage that tells you which park rides you can go on based on your height.
 * Give height & get a list of thumbnails for rides that someone your height can ride.
 * Click on thumbnails and see a larger image/park location information on modal form.
 
-#### File & Directory Structure:
-* [Fresh Start](https://github.com/karenfreemansmith/freshstart)
+## Technologies Used
+HTML, CSS
 
-### Setup/Installation
-*None required. Clone or download and extract to use*
+## Setup/Installation
+* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
+* _OR_
+* Clone diectory 
+* Open index.html in your favorite browser
 
-### Support & Contact
-For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
+## Support & Contact
+For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
 
-### Known Issues
-* sizing issues on images, rows wrap in wrong places sometimes
+## Known Issues
+* None
 
-### Technologies Used
-###### HTML, CSS, Bootstrap, JavaScript, jQuery
-
-### Legal
+## Legal
 *Licensed under the GNU General Public License v3.0*
 
-Copyright (c) 2016 **_Karen Freeman-Smith_**
+Copyright (c) 2016 Copyright _[Karen Freeman-Smith](https://karenfreemansmith.github.io)_ All Rights Reserved.
