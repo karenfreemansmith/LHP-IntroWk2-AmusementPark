@@ -1,23 +1,22 @@
+# Amusement Park Rides
+Version 0.0.2: August 12, 2016
+by [Karen Freeman-Smith](https://karenfreemansmith.github.io)
 
-# [Park Rides](http://karenfreemansmith.github.io/park)
-![project screenshot](/img/screenshot.jpg)
+### Technologies Used
+HTML, CSS, Bootstrap, JavaScript, jQuery
 
-__Version 2.1: August 12, 2016__
-## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
+![screenshot of project running](screenshot.png)
 
-### Description
-__*A webpage that tells you which park rides you can go on based on your height.*__
+## Description
+*[Learn How To Program](http://learnhowtoprogram.com) Intro to Programming Week 2 Individual Project: A webpage that shows you the rides you can go on based on your height.*
 
 * Give height & get a list of thumbnails for rides that someone your height can ride.
 * Click on thumbnails and see a larger image/park location information on modal form.
 
-## Technologies Used
-HTML, CSS
-
 ## Setup/Installation
-* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
+* [View on Github Pages](https://karenfreemansmith.github.io/LHP-IntroWk2-AmusementPark)
 * _OR_
-* Clone diectory 
+* Clone directory
 * Open index.html in your favorite browser
 
 ## Support & Contact
